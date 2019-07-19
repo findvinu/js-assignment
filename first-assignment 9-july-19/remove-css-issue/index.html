@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/fontawesome.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/solid.min.css" rel="stylesheet" />
+    <link href="https://kit-pro.fontawesome.com/releases/v5.9.0/css/pro.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="v-card.css" />
+</head>
+<body>
+  
+    <div class="vcard-template style2">
+        <div class="bgd-shadow"></div>
+        <div class="page-home page" id="page-home">
+         
+            <div class="vcard-body-wrapper">
+                <div class="vcard-body">
+                    <div id="dvcard-details">
+                     
+                     
+                     
+                            <div class="vcard-row follow-scroll contactData-container fixed-button" id="contactData-container"> 
+                                    <div class="fabs" id="saveContact">
+                                <div class="fixed-blur-bgd" id="fixed-blur-bgd" style="display: none;">
+                                    <div class="chat" id="chat">
+                                        <div class="fab-body fab-step1" id="fab-step1">
+                                            <div class="iconFab icon-fab-close" id="icon-fab-close"></div>
+                                            <div class="fab-header" style="color: rgb(14, 78, 150);">
+                                                Save Contact Data                </div>
+                                            <div class="fab-header text-regular">How would you like to save contact data?</div>
+                                            <ul>
+                                                <li class="addContactAction">
+                                                    <i class="iconFab icon-fab-share-email fas fa-envelope"></i>
+                                                    <a href="javascript:void(0)">
+                                                        Send by Email                        </a>
+                                                </li>
+                                                <li  class="addContactAction">
+                                                    <i class="iconFab icon-fab-share-savecontact fas fa-save"></i>
+                                                    <!-- ngIf: !loadDemo --><a href="http://qrco.de/handlePost/bbBCzG/?download=true" rel="external" class="ng-scope">
+                                                        Save to My Phone                        </a><!-- end ngIf: !loadDemo -->
+                                                    <!-- ngIf: loadDemo -->
+                                                </li>
+                                            </ul>
+                            
+                                        </div>
+                                      
+                                    </div>
+                                </div>
+                                <a id="prime" class="fabN" style="background: rgb(14, 78, 150);">
+                                    <span class="hidden-xs" style="color: white;">
+                                        <i class="prime fas fa-user-plus" style="color: white;"></i>
+                                        Download vCard        </span>
+                                    <i class="prime iconFab fas fa-user-plus visible-xs" style="color: white;"></i>
+                                </a>
+                            </div>
+                             </div>
+                           
+                    </div>
+                </div>
+            </div>
+        </div>
+     
+    </div>
+
+    <script src="v-card.js"></script>
+</body>
+</html>
